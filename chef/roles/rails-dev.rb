@@ -17,5 +17,6 @@ run_list(
   "recipe[database]",
   "recipe[libevent]",
   "recipe[tmux]",
+  "recipe[vim]",
   "recipe[postinstall]"
 )
