@@ -15,6 +15,7 @@ run_list(
   "recipe[rbenv::system]",
   "recipe[rbenv::vagrant]",
   "recipe[database]",
+  "recipe[libevent]",
   "recipe[tmux]",
   "recipe[postinstall]"
 )

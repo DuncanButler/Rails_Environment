@@ -1,4 +1,5 @@
 chef/cookbooks 
 chef/temp 
 chef/Cheffile.lock 
-.vagrant 
+.vagrant/ 
+.idea/
