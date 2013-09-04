@@ -2,4 +2,5 @@ chef/cookbooks
 chef/temp 
 chef/Cheffile.lock 
 .vagrant/ 
-.idea/
+.idea/workspaces.xml
+
