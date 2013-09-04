@@ -4,6 +4,7 @@
 site 'http://community.opscode.com/api/v1'
 
 cookbook 'apt'
+cookbook 'zsh', :git => 'git://github.com/opscode-cookbooks/zsh.git'
 cookbook 'git'
 cookbook 'sqlite'
 cookbook 'mysql'

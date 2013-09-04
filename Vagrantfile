@@ -24,23 +24,23 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.json = {
       "mysql" => {
         "server_root_password"   => "",
-	"server_debian_password" => "",
-	"server_repl_password"   => ""
+	      "server_debian_password" => "",
+	      "server_repl_password"   => ""
       },
       "postgresql"  => {
         "password"  => {
-	   "postgres"  => ""
-	}
+	        "postgres"  => ""
+	      }
       },
       "rbenv" => {
         "global"  => "1.9.3-p448",
-	"rubies"  => ["1.9.3-p448"],
-	"gems" => {
-	  "1.9.3-p448" => [
-	     { "name" => "bundler" }
-	  ]
-	}
-      }
+	      "rubies"  => ["1.9.3-p448"],
+	      "gems" => {
+	        "1.9.3-p448" => [
+	          { "name" => "bundler" }
+	        ]
+	      }
+      },
     }
   end
 end
