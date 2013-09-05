@@ -11,12 +11,10 @@ run_list(
   "recipe[postgresql::ruby]",
   "recipe[postgresql::server]",
   "recipe[nodejs::install_from_binary]",
-  "recipe[ruby_build]",
   "recipe[database]",
   "recipe[libevent]",
   "recipe[tmux]",
   "recipe[vim]",
-  "recipe[zsh]",
-  "recipe[postinstall]"
+  "recipe[zsh]"
 )
 
