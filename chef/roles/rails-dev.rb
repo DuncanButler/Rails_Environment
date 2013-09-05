@@ -12,8 +12,6 @@ run_list(
   "recipe[postgresql::server]",
   "recipe[nodejs::install_from_binary]",
   "recipe[ruby_build]",
-  "recipe[rbenv::system]",
-  "recipe[rbenv::vagrant]",
   "recipe[database]",
   "recipe[libevent]",
   "recipe[tmux]",

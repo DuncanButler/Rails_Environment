@@ -5,7 +5,7 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "precise64"
+  config.vm.box = "precise32"
 
   config.vm.box_url = "http://files.vagrantup.com/precise64.box"
 
@@ -31,16 +31,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         "password"  => {
 	        "postgres"  => ""
 	      }
-      },
-      "rbenv" => {
-        "global"  => "1.9.3-p448",
-	      "rubies"  => ["1.9.3-p448"],
-	      "gems" => {
-	        "1.9.3-p448" => [
-	          { "name" => "bundler" }
-	        ]
-	      }
-      },
+      }
     }
   end
 end
