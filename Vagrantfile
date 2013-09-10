@@ -8,7 +8,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "precise32"
 
   config.vm.box_url = "http://files.vagrantup.com/precise32.box"
-  config.vm.customize ["modifyvm", :id, "--memory", 1024]
+
+  config.vm.provider "virtualbox" do |v|
+    v.customise ["modifyvm", :id, "--memory", 1024]
+  end
+
   config.vm.network :forwarded_port, guest: 3000, host: 3000 # forward the default rails port
   config.vm.network :forwarded_port, guest: 3306, host: 3306 # forward the mysql port
 #  config.vm.network :forwarded_port, guest: 5432, host: 5432 # forward the postgresql port
