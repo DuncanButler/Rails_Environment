@@ -15,6 +15,7 @@ cookbook 'build-essential'
 cookbook 'libevent', :git => "git://github.com/tk0miya/chef-libevent.git"
 cookbook 'tmux', :git => "git://github.com/keenlabs/chef-tmux.git"
 cookbook 'vim'
+cookbook 'curl', :git => "git://github.com/phlipper/chef-curl.git"
 
 # before running vagrant up run in chef folder
 # librarian-chef install
