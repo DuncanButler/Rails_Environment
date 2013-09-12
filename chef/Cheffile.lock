@@ -67,6 +67,13 @@ GIT
     curl (1.0.0)
 
 GIT
+  remote: git://github.com/rchampourlier/chef-heroku-toolbelt.git
+  ref: master
+  sha: b38608b1d00b3079986af1d0e9f00828acf6cd2e
+  specs:
+    chef-heroku-toolbelt (0.0.0)
+
+GIT
   remote: git://github.com/tk0miya/chef-libevent.git
   ref: master
   sha: f22bae066cf348a621685a0e61b5cc8a9d36fae0
@@ -77,6 +84,7 @@ GIT
 DEPENDENCIES
   apt (>= 0)
   build-essential (>= 0)
+  chef-heroku-toolbelt (>= 0)
   curl (>= 0)
   database (>= 0)
   git (>= 0)
