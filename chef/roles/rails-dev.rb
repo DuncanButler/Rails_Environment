@@ -16,7 +16,6 @@ run_list(
   "recipe[tmux]",
   "recipe[vim]",
   "recipe[zsh]",
-  "recipe[curl]",
-  "recipe[chef-heroku-toolbelt]"
+  "recipe[curl]"
 )
 
