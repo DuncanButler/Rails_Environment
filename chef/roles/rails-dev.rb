@@ -13,7 +13,7 @@ run_list(
   "recipe[nodejs::install_from_binary]",
   "recipe[database]",
   "recipe[libevent]",
-  "recipe[tmux]",
+  "recipe[tmux::source]",
   "recipe[vim]",
   "recipe[zsh]",
   "recipe[curl]"
